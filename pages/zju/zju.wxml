@@ -1,2 +1,20 @@
 <!--pages/zju/zju.wxml-->
 <text>pages/zju/zju.wxml</text>
+<view>1</view>
+<view>
+  <text>latitude: {{latitude}}</text>
+</view>
+
+<view>
+  <text>longitude: {{longitude}}</text>
+</view>
+
+<view>
+  <map class="myMap" id ="myMap" style = "width: 100%; height: 300px;" longitude="{{longitude}}" latitude="{{latitude}}"
+  markers="{{markers}}" scale ='16' show-location show-compass>
+  </map>
+</view>
+<view class="btn">
+  <button bindtap="moveToLocation">移动位置</button>
+  <button bindtap="moveBack">重置位置</button>
+</view>

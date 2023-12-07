@@ -1,4 +1,9 @@
 {
+  "permission": {
+    "scope.userLocation": {
+      "desc": ""
+    }
+  },
   "pages": [
     "pages/index/index",
     "pages/logs/logs",

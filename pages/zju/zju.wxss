@@ -1,1 +1,7 @@
 /* pages/zju/zju.wxss */
+button {
+  color:white;
+  background-color: darkgreen;
+  margin : 10rpx;
+  border-radius: 5px;
+}
