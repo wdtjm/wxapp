@@ -1,8 +1,30 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/zju/zju"
   ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle":"black",
+    "backgroundColor": "#ffffff",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "icon/file.png",
+        "selectedIconPath": "icon/file.png",
+        "text":"home"
+      },
+      {
+        "pagePath": "pages/zju/zju",
+        "iconPath": "icon/my.png",
+        "selectedIconPath": "icon/my.png",
+        "text": "school"
+      }
+    ]
+  },
   "window": {
     "navigationBarTextStyle": "black",
     "navigationStyle": "custom"
