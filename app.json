@@ -1,9 +1,33 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/hot/hot",
+    "pages/user/user",
+    "pages/broadcast/broadcast"
   ],
-  "window": {
+  "tabBar": {
+    "position": "top",
+    "list": [{
+      "pagePath": "pages/hot/hot",
+      "text": "热歌推荐",
+      "iconPath": "",
+      "selectedIconPath": ""
+    },
+    {
+      "pagePath": "pages/broadcast/broadcast",
+      "text": "精选电台",
+      "iconPath": "",
+      "selectedIconPath": ""
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "个人中心",
+      "iconPath": "",
+      "selectedIconPath": ""
+    }
+    
+  ]
+  },
+    "window": {
     "navigationBarTextStyle": "black",
     "navigationStyle": "custom"
   },
