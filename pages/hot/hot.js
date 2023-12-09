@@ -1,18 +1,25 @@
 // pages/hot/hot.js
+import musicList from "../../datas/musicList.js";
+import musics from "../../datas/musicList.js";
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    
+    
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad(options) {
-
+  onLoad:function(options) {
+    this.setData({
+      musics:musicList.musics
+    })
+    console.log(musicList);
+    console.log(musicList.musics);
   },
 
   /**

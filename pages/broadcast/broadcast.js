@@ -1,4 +1,5 @@
 // pages/broadcast/broadcast.js
+import broadcastList from"../../datas/broadcastList.js";
 Page({
 
   /**
@@ -11,8 +12,10 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad(options) {
-
+  onLoad: function(options) {
+    this.setData({
+      broadcasts:broadcastList.broadcasts
+    })
   },
 
   /**

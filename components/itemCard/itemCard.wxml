@@ -1,0 +1,19 @@
+<!--components/itemCard/itemCard.wxml-->
+<view>
+  <view class="author"> 
+    <view class="authorname">
+      {{item.name}}
+    </view> 
+    <view class="content">
+      <view class="song-list">
+        <view class="song" wx:for="{{item.songs}}" wx:key="index" wx:for-item="song">
+          <text>{{song.id}}--</text>
+          <text>{{song.title}}</text>
+        </view>
+      </view>
+      <view class="profile">
+        <image class="banner" mode="aspectFit" src="{{item.src}}"></image>
+      </view>
+    </view>
+  </view>
+</view>
