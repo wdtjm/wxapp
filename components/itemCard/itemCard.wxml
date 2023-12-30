@@ -1,5 +1,5 @@
 <!--components/itemCard/itemCard.wxml-->
-<view>
+<view bindtap="handleHot">
   <view class="author"> 
     <view class="authorname">
       {{item.name}}

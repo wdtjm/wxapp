@@ -1,4 +1,5 @@
 // app.js
+import DEFAULT_MUSIC from './config/index';
 App({
   onLaunch() {
     // 展示本地存储能力
@@ -12,8 +13,16 @@ App({
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
       }
     })
+    this.globalData.audio.src = DEFAULT_MUSIC.DEFAULT_MUSIC.musicUrl
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    audio:wx.createInnerAudioContext(),
+    playState:DEFAULT_MUSIC.DEFAULT_MUSIC.playState,
+    musicPic:DEFAULT_MUSIC.DEFAULT_MUSIC.musicPic,
+    musicName:DEFAULT_MUSIC.DEFAULT_MUSIC.musicName,
+    musicUrl:DEFAULT_MUSIC.DEFAULT_MUSIC.musicUrl,
+    artistName:DEFAULT_MUSIC.DEFAULT_MUSIC.artistName,
+    musicPlayer:null,
   }
 })

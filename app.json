@@ -2,32 +2,33 @@
   "pages": [
     "pages/hot/hot",
     "pages/user/user",
-    "pages/broadcast/broadcast"
+    "pages/broadcast/broadcast",
+    "pages/hotDetail/hotDetail"
   ],
   "tabBar": {
     "position": "top",
-    "list": [{
-      "pagePath": "pages/hot/hot",
-      "text": "热歌推荐",
-      "iconPath": "",
-      "selectedIconPath": ""
-    },
-    {
-      "pagePath": "pages/broadcast/broadcast",
-      "text": "精选电台",
-      "iconPath": "",
-      "selectedIconPath": ""
-    },
-    {
-      "pagePath": "pages/user/user",
-      "text": "个人中心",
-      "iconPath": "",
-      "selectedIconPath": ""
-    }
-    
-  ]
+    "list": [
+      {
+        "pagePath": "pages/hot/hot",
+        "text": "热歌推荐",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/broadcast/broadcast",
+        "text": "精选电台",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人中心",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ]
   },
-    "window": {
+  "window": {
     "navigationBarTextStyle": "black",
     "navigationStyle": "custom"
   },

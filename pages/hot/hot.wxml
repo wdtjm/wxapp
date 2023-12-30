@@ -4,5 +4,5 @@
   <view wx:for = "{{musics}}" wx:for-item="item" wx:for-index="index" wx:key="index">
     <itemCard item = "{{item}}"/>
   </view>
-  
+ <musicPlayer song="{{song}}"></musicPlayer>
 </view>
