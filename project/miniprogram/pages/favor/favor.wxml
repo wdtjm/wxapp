@@ -1,0 +1,9 @@
+<!--pages/favor/favor.wxml-->
+<view class="favor">
+我的收藏
+</view>
+<view class="detail-wrap">
+<view wx:for="{{dataSource}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+      <songItem item = "{{item}}" singer="{{item.singer}}"/>
+</view>
+</view>

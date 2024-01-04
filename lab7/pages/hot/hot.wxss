@@ -1,6 +1,0 @@
-/* pages/hot/hot.wxss */
-page{background-color: darkslategrey;}
-.player{
-  position: fixed;
-  bottom:0;
-}

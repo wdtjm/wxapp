@@ -1,0 +1,13 @@
+/* pages/favor/favor.wxss */
+.detai-wrap{
+  top: 100rpx;
+}
+
+.favor{
+  font-size: 100rpx; /* 可根据实际需要调整字体大小 */
+  font-weight: bold;
+  color: #333; /* 根据设计需求选择合适的颜色 */
+  background-color: bisque;
+  text-align: center; /* 居中对齐 */
+  margin-bottom: 20rpx; /* 适当的下边距，根据实际情况调整 */
+}

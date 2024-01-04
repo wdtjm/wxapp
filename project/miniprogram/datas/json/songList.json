@@ -1,0 +1,61 @@
+{"liRongHao":[
+  {
+    "id" :1,
+    "name":"演员",
+    "src":"",
+    "poster":"https://cdnmusic.migu.cn/picture/2023/1024/1642/AS90376462f7febe6d215e6d0a727db99c.jpg"
+  },
+  {
+    "id":2,
+    "name":"不将就",
+    "src":"",
+    "poster":"https://cdnmusic.migu.cn/picture/mv/1v3/sl/52ea843351d6761a5b2c2653a2f06370.jpg"
+  }
+],
+"zhouJieLun":[
+  {
+    "id" :1,
+    "name":"说好不哭",
+    "src":"",
+    "poster":"https://cdnmusic.migu.cn/picture/2023/1024/1642/AS90376462f7febe6d215e6d0a727db99c.jpg"
+  },
+  {
+    "id":2,
+    "name":"不将就",
+    "src":"",
+    "poster":"https://cdnmusic.migu.cn/picture/mv/1v3/sl/52ea843351d6761a5b2c2653a2f06370.jpg"
+  }
+],
+"xuSong":[
+  {
+    "id" :1,
+    "name":"有何不可",
+    "src":"",
+    "poster":"https://cdnmusic.migu.cn/picture/2023/1227/1449/AS34abc2a253d39d2e7ada6cc511386a8a.jpg"
+  },
+  {
+    "id":2,
+    "name":"科幻",
+    "src":"",
+    "poster":"https://cdnmusic.migu.cn/picture/2023/1230/1728/AS9e5ee8d116461d613a760995a65b4009.jpg"
+  }
+],
+"songList":[
+  {
+    "singer":"李荣浩",
+    "songs":"liRongHao"
+  },
+  {
+    "singer":"周杰伦",
+    "songs":"zhouJieLun"
+  },
+  {
+    "singer":"许嵩",
+    "songs":"xuSong"
+  },
+  {
+    "singer":"个性电台",
+    "songs":"geXingDianTai"
+  }
+]
+}

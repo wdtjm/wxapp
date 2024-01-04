@@ -1,0 +1,6 @@
+<!--components/broadItem/broadItem.wxml-->
+<view bindtap="handleBroad">
+<view class="broad-item" style="background-image: url('{{item.thumb}}');">
+  <text class="broad-text">{{item.name}}</text>
+</view>
+</view>
